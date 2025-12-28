@@ -1,1 +1,6 @@
-
+{
+  "it":[
+    "json",
+    "./dictionary/it_words_en_keymap.json"
+  ]
+}
