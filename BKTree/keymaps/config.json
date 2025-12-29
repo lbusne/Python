@@ -1,6 +1,6 @@
 {
   "en":[
     "json",
-    "./keymaps/en_keymap.json"
+    "/keymaps/en.json"
   ]
 }
