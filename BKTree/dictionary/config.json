@@ -1,6 +1,10 @@
 {
   "it":[
     "json",
-    "./dictionary/it_words_en_keymap.json"
+    "/dictionary/it.json"
+  ],
+  "en":[
+    "json",
+    "/dictionary/en.json"
   ]
 }
