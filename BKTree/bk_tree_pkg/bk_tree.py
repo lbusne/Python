@@ -264,8 +264,8 @@ class BKTree(Buildable):
         """
         Return the istance as a string in json format
 
-        Args:
-           indent (int) = 2: Number of spaces used for indentation
+        Returns:
+            dict[str, str | list[dict[str, str | bool | list[dict[str, int | str]]]]]: the tree as dictionary
 
         Example:
         {
