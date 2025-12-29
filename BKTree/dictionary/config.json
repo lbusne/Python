@@ -1,10 +1,10 @@
 {
   "it":[
     "json",
-    "/dictionary/it.json"
+    "dictionary/it.json"
   ],
   "en":[
     "json",
-    "/dictionary/en.json"
+    "dictionary/en.json"
   ]
 }
