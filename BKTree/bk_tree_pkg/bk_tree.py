@@ -346,6 +346,9 @@ def bk_tree_builder_from_set(
     Returns:
         BKTree: a BK-tree populated with the string in the set
 
+    Raises:
+        ValueError: if the set is empty
+
     Example:
         >>> BKTree.build("from_set", {"book", "cake", "bed"}
     """
