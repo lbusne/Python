@@ -8,12 +8,22 @@ class Node:
         links: dict[int, "Node"] | None = None,
         is_active: bool = True,
     ):
+        """
+        Initialize the istance
+
+        Args:
+            value (str): the value of the node
+            links (dict[int | Node] | None) = None: the edges of the node
+            is_active (bool): the status of the node
+        """
         self._value: str = value
         self._is_active: bool = is_active
         self._links: dict[int, "Node"] = {} if links is None else links
 
     def __repr__(self) -> str:
         """
+        Return the representation of the node
+
         Example:
         >>> print(node)
         Node: node
