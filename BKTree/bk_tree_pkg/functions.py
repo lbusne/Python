@@ -10,7 +10,7 @@ def levenshtein_distance(
 ) -> int:
     """
     Calculate the distance between two strings, based on number of substitutions, deletions and insertions.
-    If the keyboard is given the weight of the substitutions will be calculated based on the distance between the keys on the given keyboard
+    If the weight function is given it will calculate the substitution distance based on the function.
 
     Args:
         s1 (str): First string to compare
@@ -84,4 +84,18 @@ def levenshtein_distance(
 
 
 def euclidean_distance(p1: tuple[float, float], p2: tuple[float, float]) -> float:
+    """
+    Calculated the euclidean distance between two points
+
+    Args:
+        p1 (tuple[float, float]): the first point
+        p2 (tuple[float, float]): the second point
+
+    Returns:
+        float: the euclidean distance between the points
+
+    Example:
+    >>> euclidean_distance((1.0, 1.0), (2.5, 4.5))
+    3.807886...
+    """
     return ((p1[0] - p2[0]) ** 2 + (p1[1] - p2[1]) ** 2) ** 0.5
