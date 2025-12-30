@@ -45,16 +45,16 @@ class Keyboard(Buildable):
 
         Example:
         >>> print(k)
-        {
-          "`": [
-            0,
-            3
-          ],
-          "z": [
-            2,
-            0
-          ]
-        }
+        q (1, 3)
+         |-- (0) Q
+         |-- (0) q
+         |-- (1) w
+         |-- (1) w
+        w (2, 3)
+         |-- (0) w
+         |-- (0) W
+         |-- (1) q
+         |-- (1) Q
         """
         class_output: list[str] = []
         for key, coordinate in self._keys.items():
