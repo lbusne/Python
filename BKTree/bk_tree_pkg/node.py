@@ -24,6 +24,9 @@ class Node:
         """
         Return the representation of the node
 
+        Returns:
+            (str): the representation of the node as string
+
         Example:
         >>> print(node)
         Node: node
