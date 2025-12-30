@@ -1,8 +1,7 @@
 import json
-from .buildable import Buildable
 
 
-class Node(Buildable):
+class Node:
     def __init__(
         self,
         value: str,
